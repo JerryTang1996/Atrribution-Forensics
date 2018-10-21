@@ -6,9 +6,9 @@
 
 ### 2.行动简介
 + （1）HangOver
-这次攻击主要是针对电信巨头Telenor的一次非法入侵，主要的攻击方式是鱼叉式网络钓鱼。
-第一次的攻击的网络钓鱼文件包括两个附件文件，一个doc文档‘220113.doc’和一个可执行文件‘few important operational documents.doc.exe’，可执行文件是一个包含两个文件的自动提取ZIP压缩包，两个文件分别是：‘conhosts.exe’和诱饵文件‘legal operations.doc’。 ‘legal operations.doc’和‘220113.doc’除了大小外都是相同的，实际上是特质的RTF文件，旨在触发Microsoft Common Controls中的软件漏洞（CVE-2012-0158），通常在Microsoft Word中触发。如果触发漏洞，将运行文档中的恶意嵌入代码。
-第二次攻击，攻击者创建了另外一个攻击包，并将它放在一个网址上，这个包和第一个包非常相似，只是这次的诱饵文件是powerpoint演示文稿。
++ 这次攻击主要是针对电信巨头Telenor的一次非法入侵，主要的攻击方式是鱼叉式网络钓鱼。
++ 第一次的攻击的网络钓鱼文件包括两个附件文件，一个doc文档‘220113.doc’和一个可执行文件‘few important operational documents.doc.exe’，可执行文件是一个包含两个文件的自动提取ZIP压缩包，两个文件分别是：‘conhosts.exe’和诱饵文件‘legal operations.doc’。 ‘legal operations.doc’和‘220113.doc’除了大小外都是相同的，实际上是特质的RTF文件，旨在触发Microsoft Common Controls中的软件漏洞（CVE-2012-0158），通常在Microsoft Word中触发。如果触发漏洞，将运行文档中的恶意嵌入代码。
++ 第二次攻击，攻击者创建了另外一个攻击包，并将它放在一个网址上，这个包和第一个包非常相似，只是这次的诱饵文件是powerpoint演示文稿。
 + （2）
 + （3）Patchwork
 这次攻击主要针对的是东南亚和中国南海，攻击自2015年12月被检测出到2016年7月报告发布，已感染了约2500台电脑，据报告显示活动最早可追溯到2014年。
